@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 
 """
-This is a type annotated function that adds two float numbers and return the sum as a float
+define a type annotated function that adds two float numbers and return the sum as a float
 """
 
 def add(a: float, b: float) -> float:
+    """
+    Add two float numbers and return the sum as a float
+    """
     return a + b
 
 if __name__ == "__main__":
