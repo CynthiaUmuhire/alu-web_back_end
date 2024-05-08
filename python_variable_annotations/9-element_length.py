@@ -2,7 +2,7 @@
 """
 importing the List and Tuple modules from the typing module
 """
-from typing import List, Tuple, Iterable,Sequence
+from typing import List, Tuple, Iterable, Sequence
 """
 function element_length that takes a list of strings an iterable
 and returns a list of tuples where each tuple contains a string and an
