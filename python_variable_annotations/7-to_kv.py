@@ -9,7 +9,7 @@ v as arguments and returns a mixed tuple.
 """
 
 
-def to_kv(k: str, v: Union[str, float]) -> tuple(str, float):
+def to_kv(k: str, v: Union[str, float]) -> tuple[str, float]:
     """
     returns a tuple containing k and the square of v.
     """
