@@ -10,7 +10,7 @@ integer.
 """
 
 
-def element_length(lst: Iterable[Sequence]) -> List[Tuple[int, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     returns a list of tuples where each tuple contains a string and an
     integer.
