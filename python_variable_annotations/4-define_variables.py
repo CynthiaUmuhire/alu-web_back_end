@@ -1,14 +1,18 @@
-#!/usr/bin/env python3
+""" Define variables"""
+a = 1
+pi = 3.14
+i_understand_annotations = True
+school = "Holberton"
 
-"""
-define a function that takes in arguments with default values
-"""
+"""Function to annotate variables"""
+def annotate_variables():
+    """Annotate variables with their respective types"""
+    annotations = {
+        'a': (a, int),
+        'pi': (pi, float),
+        'i_understand_annotations': (i_understand_annotations, bool),
+        'school': (school, str)
+    }
+    """Return annotations"""
+    return annotations
 
-
-def define_variables(a: int = 1, pi: float = 3.14,
-                     i_understand_annotations: bool = "true",
-                     school: str = "Holberton") -> str:
-    """
-    return a string with the default values
-    """
-    return {a}, {pi}, {i_understand_annotations}, {school}
