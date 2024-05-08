@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """
+importing the Callable module from the typing module
+"""
+from typing import Callable
+"""
 a function that takes a float multiplier as argument
 and returns a function
 """
 
 
-def make_multiplier(multiplier: float) -> callable:
+def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
     a function that takes a float multiplier as argument
     """
