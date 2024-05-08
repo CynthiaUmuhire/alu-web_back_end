@@ -11,4 +11,4 @@ def define_variables(a: int = 1, pi: float = 3.14,
     """
     return a string with the default values
     """
-    return f"{a} {pi} {i_understand_annotations} {school}"
+    return {a}, {pi}, {i_understand_annotations}, {school}
