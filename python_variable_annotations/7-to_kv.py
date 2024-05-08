@@ -8,7 +8,7 @@ from typing import Union, Tuple
 function to_kv that takes a string k and an int OR float
 v as arguments and returns a mixed tuple.
 """
-def to_kv(k: str, v: Union[str, float]) -> Tuple[str, float]:
+def to_kv(k: str, v: Union[str, float]) -> Tuple[int, float]:
     """
     returns a tuple containing k and the square of v.
     """
